@@ -27,6 +27,18 @@ h3 {
 h1 {
   display: none;
 }
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+h3 {
+  font-size: large;
+  font-weight: bold;
+}
+.likes,
+.ingredients {
+  text-decoration: underline wavy rgb(64, 188, 230);
+}
 
 .container1,
 .container3 {
