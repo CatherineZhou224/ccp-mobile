@@ -24,7 +24,7 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.sta {
+.title {
   display: none;
 }
 
@@ -38,7 +38,9 @@ h3 {
 }
 .likes,
 .ingredients {
+  list-style: circle;
   text-decoration: underline wavy rgb(64, 188, 230);
+  padding-left: 20px;
 }
 
 .container1,
@@ -103,6 +105,18 @@ nav div a {
 
 .travel {
   background-color: rgb(255, 236, 210);
+}
+
+.steps > li {
+  list-style: upper-roman;
+  border: dotted gold 2px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px;
 }
 
 hr {
@@ -171,7 +185,7 @@ figcaption {
   .animation span {
     display: none;
   }
-  .sta {
+  .title {
     display: flex;
     margin: 15px;
     font-size: 2rem;
