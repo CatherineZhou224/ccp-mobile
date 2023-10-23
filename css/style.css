@@ -24,9 +24,10 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h1 {
+.sta {
   display: none;
 }
+
 h2 {
   font-size: x-large;
   font-weight: bold;
@@ -170,7 +171,7 @@ figcaption {
   .animation span {
     display: none;
   }
-  h1 {
+  .sta {
     display: flex;
     margin: 15px;
     font-size: 2rem;
